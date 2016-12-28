@@ -1,1 +1,82 @@
-<?php include_once("index.html"); ?>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>
+		 Psychic Game 
+	</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css"> 
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Italianno|Monoton|Niconne&subset=latin-ext">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" id="nametag">V's Psychic Game </a>
+        </div>
+    </header>
+
+    <section id="board" class="gameboard">
+        <nav>
+            <a href="#"><strong>Wins:<span id="wins"> #</span></strong></a>
+            <a href="#"><strong>Losses:<span id="losses"> #</span></strong></a>
+        </nav>
+    </section>
+
+    <section id="arena" class="playzone">
+      <div class="container-game" id="write-up">
+        <div class="row">
+            <div id="page-header" class="col-md-12 col-md-offset-1 text-center">
+                <h1><span><strong> Guess!! Which "LETTER" I am thinking of?? </strong></span></h1>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div>
+                <h2><strong><span>Press  any  key  to  start!</span></strong></h2>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="guessing" class="phase2">
+      <div class="container-game" id="game-up">
+
+        <div class="row4"> 
+            <h2><span id="guesses"></span></h2>
+            <h3><strong>Lives <strong><span id="lives">#</span></strong> Left!</strong></h3>
+            <h3>Letter <strong><span id="display"> "letter"</span></strong></h3>
+        </div>  
+
+        <div class="row5">
+            <h3><strong><span id="LETTER"></span></strong></h3><br>
+            <h2> Guessed: <span id="usedLetters"></span></h2>
+        </div>
+
+      </div>
+    </section>
+
+    <footer id="reset" class="phase4">
+      <div class="container-restart" id="playagain">
+        <div class="row7">
+            <strong><img src="assets/images/psychicButton.gif" id="restart" width="150" height="75" type="button" class="btn btn-restart" onclick="myFunction()" value="restart"></img></strong>
+        </div>
+      </div>
+    </footer>>
+      
+
+</body>
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+</html>

@@ -1,0 +1,174 @@
+* {
+	box-sizing: border-box;
+    }
+body  {
+	    height:480px;
+	    width:320px;
+	    border-radius: 5px;
+	    background-image: url("../images/free-psychic-reading-273x300.jpg");
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    opacity: 1;
+	    color: #660000;
+	    padding: 10 10 10 10;
+	    text-align: center;
+	    text-shadow: 5px 5px 8px #B8860B;
+	    font-family: 'Italianno', 'Monoton', 'Niconne&subset=latin-ext';
+	   
+	       }
+
+h1  {
+	 background: #B8860B;
+     text-shadow: 5px 5px 8px #660000;
+	 font-size: 36px;
+	}
+
+h2  {
+	 background: #B8860B;
+     text-shadow: 5px 5px 8px #660000;
+     font-size: 32px;
+	}
+
+h3, p {
+	background: #B8860B;
+    text-shadow: 5px 5px 8px #660000;
+	font-size: 28px;
+	}
+
+span  {
+	font-size: 28px; 
+    }
+
+.container   {
+	padding: 10 10 10 10;
+	margin: 10% auto;
+}
+/*header*/
+
+#porthead  {
+        background: #ffffff;
+	    z-index: 99;
+	    width: 100%;
+	    overflow: auto;
+	    border-color: #cccccc;
+	    border-bottom: 5px solid #ccc;
+	    margin: 0 0 30px;
+	    position: static;
+	   }
+
+#nametag  {
+	    width: 300px;
+	    height: 90px;
+	    background: #B8860B;
+	    float: left;
+	    font-family: 'Georgia', Times, Times New Roman, serif;
+	    font-size: 32px;
+	    text-align: center;
+	    line-height: 90px;
+	    color: #ffffff;
+	    text-decoration: none;
+    }
+
+nav    {
+	    float: left;
+	    margin-top: 25px;
+	    text-shadow: 5px 5px 8px #660000;
+    }
+
+nav a  {
+        color: #333333;
+        text-decoration: none;
+        background: #B8860B;
+        text-shadow: 5px 5px 8px #660000;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+	    font-size: 32px;
+	    height: 40px;
+        margin-left: 15px;
+        display: inline-block;
+        border-left: 2px solid #efefef;
+        padding-left: 15px;
+        line-height: 32px;
+    }
+
+nav a:first child  {
+	border-left: 0 none;
+	text-shadow: 5px 5px 8px #660000;
+    }
+
+#page-header  {
+	background: #B8860B;
+    text-shadow: 5px 5px 8px #660000;
+	float: left;
+	position: relative;
+}
+
+#userletters   a, i {
+	background: #B8860B;
+    text-shadow: 5px 5px 8px #660000;
+	cursor: pointer;
+}
+
+#usedletters a u(deactivated/used){
+	background: #B8860B;
+    text-shadow: 5px 5px 8px #660000;
+	color: white;
+	text-decoration: underline;
+}
+
+/*footers*/
+
+footer  {
+        background: #B8860B;
+        color: #ffffff;
+        padding: 25px 0;
+        clear: both;
+        border-top: 10px solid #660000;
+        color: #333;
+        font-size: 12px;
+        text-align: center;
+    }
+
+@media only screen and (orientation: landscape){
+	body  {
+		background-color: lightgreen;
+	}
+}
+
+@media only screen and (max-width: 640px) (min-width: 320px) {
+/*for mobile phones: */
+[class*="col-"]  {
+	width: 100%;
+}
+}
+
+@media only screen and (max-width: 768px)  {
+	/* for tablets: */
+	.col-m-1 {width: 8.33%;}
+	.col-m-2 {width: 16.66%;}
+	.col-m-3 {width: 25%;}
+	.col-m-4 {width: 33.33%;}
+	.col-m-5 {width: 41.66%;}
+	.col-m-6 {width: 50%;}
+	.col-m-7 {width: 58.33%;}
+	.col-m-8 {width: 66.66%;}
+	.col-m-9 {width: 75%;}
+	.col-m-10 {width: 83.33%;}
+	.col-m-11 {width: 91.66%;}
+	.col-m-12 {width: 100%;}
+}
+
+@media only screen and (max-width: 980px)  {
+	/* for desktops: */
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+}
